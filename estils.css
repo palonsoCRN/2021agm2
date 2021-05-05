@@ -1,0 +1,113 @@
+body{
+  background-image: url(fondo_chill.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+header{
+  height: 100px;
+  width: auto;
+  justify-content: space-between;
+  background-color: lightgrey;
+}
+
+
+.cuadros {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin: 20px;
+  display: inline-block;
+  align-items: center;
+}
+*
+.cuadros:hover {
+  opacity: 50%;
+  transform: rotate(120deg);
+}
+h1{
+  color: white;
+  align: center;
+  margin-left: 400px;
+}
+
+p{
+  font-family: ShadowsIntoLight;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 50px;
+}
+
+#formulario{
+  background-color: lightgrey;
+}
+
+.cajitas{
+  width: 200px;
+  background-color: lightgreen;
+
+}
+
+
+}
+@font-face {
+font-family: ShadowsIntoLight;
+src: url(ShadowsIntoLight.ttf);
+}
+
+#uno {
+  background-color: green;
+}
+
+#dos {
+  background-color: lightblue;
+}
+
+#tres {
+  background-color: lightsalmon;
+}
+
+#cuatro {
+  background-color: lightgreen;
+  background-repeat: no-repeat;
+}
+
+#cuadrodiferente{
+  background-color: lightgrey;
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+}
+
+#titulo{
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  -webkit-text-stroke; white 3px;
+}
+
+#contenido{
+  background-color: green;
+  width: 700px;
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+
+
+.cuadros:{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin: 20px;
+  transition: 1s;
+  float: left;
+}
+.cuadros:hover {
+  opacity: 50%;
+  transform: rotate(360deg);
+}
